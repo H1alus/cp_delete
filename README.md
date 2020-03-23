@@ -1,5 +1,5 @@
 # cp_delete
-### only for UNIX systems
+### multiplatform script (works on Windows, Linux and macOS)
 Short script that deletes the copies marked with '(n)'. Where n is the number of copies
 
 EXAMPLE OF A FILE: "IMG-130130.jpg"

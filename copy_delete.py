@@ -34,8 +34,7 @@ def main():
                 original_name = original_name.replace(' .', '.', 1)
                 for k in range(len(content)):
                     if original_name == content[k] and k != i:
-                        content[i] = '"' + content[i].replace('\n', '') + '"'
-                        os.system("rm -r {}".format(content[i]))
+                        os.remove(content[i])
                         break
     print('you may find some copies in the folder because the original was not found\n\
 or the notation is not supported')
