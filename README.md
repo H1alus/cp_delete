@@ -1,6 +1,6 @@
 # dumbPythonScripts
 Collection of short stupid scripts made by me to automate boring/stupid stuff, don't expect anything special, I do each script in less than 10 mins (or about 10 mins)
-### cp_delete
+### copy_delete.py
 #### multiplatform script (works on Windows, Linux and macOS)
 Short script that deletes the copies marked with '(n)'. Where n is the number of copies
 
