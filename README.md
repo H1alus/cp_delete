@@ -10,8 +10,21 @@ EXAMPLE OF A COPY: "IMG-130130 (1).jpg"
 
 The scripts deletes the copy and leaves the original file in the dir.
 
-# USAGE:
-put the script in the directory where the copies are found.
+#### USAGE:
+Put the script in the directory where the copies are found.
 Execute in the terminal the command:
 
 > python3 copy_delete.py
+
+### lineCounter.py
+#### multiplatform script (works on Windows, Linux and macOS)
+#### script to count the lines of code in a C project.
+
+The scripts counts all the lines of code in a C project except for the empty lines, but it doesn't exclude the lines of comments.
+
+#### USAGE:
+Put the script in the root directory of your C project, and run:
+
+> python3 lineCounter.py
+
+The script will find all the subdirectories and files and it will do the job by its own.
