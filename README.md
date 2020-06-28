@@ -31,9 +31,9 @@ The script will find all the subdirectories and files and it will do the job by 
 
 ### rm-%.c
 #### multiplatform script (works on Windows, Linux and macOS)
-#### script to switch % chars from a string with the actual value
+#### script to switch % chars in a string with the actual char value
 
-I added this here just because it should be considered as a script, this remove the % rappresentation
+I added this here just because it should be considered as a script, this removes the % rappresentation
 of char and changes them with the normal one, example of string:
 
 example%20EXAMPLE%2F
