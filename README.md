@@ -28,3 +28,31 @@ Put the script in the root directory of your C project, and run:
 > python3 lineCounter.py
 
 The script will find all the subdirectories and files and it will do the job by its own.
+
+### rm-%.c
+#### multiplatform script (works on Windows, Linux and macOS)
+#### script to switch % chars from a string with the actual value
+
+I added this here just because it should be considered as a script, this remove the % rappresentation
+of char and changes them with the normal one, example of string:
+
+example%20EXAMPLE%2F
+
+output result:
+
+example EXAMPLE/
+
+#### USAGE:
+2 ways of usage, give string as argument or string via stdin.
+
+To pass string via argument do: 
+
+LINUX, MACOS:
+
+> gcc rm-%.c -o rm-% -D ARG
+
+WINDOWS
+
+>gcc rm-%.c -o rm-%.exe -D ARG
+
+then run the script as usual for any compiled program.
