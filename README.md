@@ -20,14 +20,14 @@ Execute in the terminal the command:
 #### multiplatform script (works on Windows, Linux and macOS)
 #### script to count the lines of code in a C project.
 
-The scripts counts all the lines of code in a C project except for the empty lines, but it doesn't exclude the lines of comments.
+The script counts all the lines of code in a C project except for the empty lines, but it doesn't exclude the lines of comments.
 
 #### USAGE:
 Put the script in the root directory of your C project, and run:
 
 > python3 lineCounter.py
 
-The script will find all the subdirectories and files and it will do the job by its own.
+The script will find all the subdirectories and files and it will do the job on its own.
 
 ### rm-%.c
 #### multiplatform script (works on Windows, Linux and macOS)
